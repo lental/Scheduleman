@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="hello">Hello World, Home!</string>
+<string name="app_name">Scheduleman</string>
+<string name="HomeUrlEdit">paste Scheduleman URL here</string>
+<string name="changeUrlButton">Parse</string>
+<string name="HomeMenuPrevious">Last Saved Schedule</string>
+<string name="ScheduleDeleteSave">Delete This Schedule</string>
+<string name="ScheduleRefresh">Refresh this Schedule</string>
+<string name="HomeDefaultText">Hello!\n\nThis is an unnofical Scheduleman app for CMU students.\n\nYou can type/paste in a full URL\n(https://scheduleman.org/schedules/AtoAAW0Vgk)\n\nor just the identifier at the end \n(AtoAAW0Vgk).\n\nThese identifiers are case insensitive.  \n\nThere is currently wonky support with Sunday classes. Sorry Qatar!\n\nProblems or suggestions, send over to schedulemanApp@gmail.com, with offending schedule when possible.</string>
+</resources>

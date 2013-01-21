@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:orientation="horizontal" android:layout_height="wrap_content" android:id="@+id/tableDays">
+		
+		<TableLayout android:layout_height="fill_parent"
+			android:layout_weight="10" android:layout_width="fill_parent">
+
+			<TableRow android:gravity="left" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_weight="1" android:id="@+id/classOverlay">
+				<TextView android:layout_height="fill_parent"
+					android:padding="1dip" android:textSize="8dip" />
+			</TableRow>
+		</TableLayout>
+		
+		<HorizontalScrollView android:id="@+id/DaysHorizScroll"
+				android:layout_height="fill_parent">
+		<TableLayout android:layout_height="fill_parent"
+			android:layout_width="fill_parent" android:layout_weight="1">
+			<TableRow android:gravity="left" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:layout_weight="1">
+
+				<TextView android:layout_height="fill_parent" android:text="Mon"
+					android:padding="1dip" android:layout_weight="1" android:textSize="8dip"  android:layout_marginRight="1dip" android:gravity="center" android:background="#FF222222"/>
+					
+				<TextView android:layout_height="fill_parent" android:text="Tue"
+					android:padding="1dip" android:layout_weight="1" android:textSize="8dip"  android:layout_marginRight="1dip" android:gravity="center" android:background="#FF222222"/>
+					
+				<TextView android:layout_height="fill_parent" android:text="Wed"
+					android:padding="1dip" android:layout_weight="1" android:textSize="8dip"  android:layout_marginRight="1dip" android:gravity="center" android:background="#FF222222"/>
+					
+				<TextView android:layout_height="fill_parent" android:text="Thur"
+					android:padding="1dip" android:layout_weight="1" android:textSize="8dip"  android:layout_marginRight="1dip" android:gravity="center" android:background="#FF222222"/>
+					
+				<TextView android:layout_height="fill_parent" android:text="Fri"
+					android:padding="1dip" android:layout_weight="1" android:textSize="8dip"  android:layout_marginRight="1dip" android:gravity="center" android:background="#FF222222"/>	
+			</TableRow>
+		</TableLayout>
+		</HorizontalScrollView>
+	</LinearLayout>
+	
+	
+	
+	
+	<ScrollView android:id="@+id/tableScroll"
+		android:layout_height="fill_parent" android:layout_width="fill_parent">
+		<LinearLayout android:layout_height="fill_parent"
+			android:layout_width="fill_parent" android:orientation="horizontal">
+			
+			<TableLayout android:layout_height="fill_parent"
+				android:layout_width="fill_parent" android:layout_weight="10" android:id="@+id/tableTimes">
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:textSize="8dip"
+						android:gravity="right|center_vertical" android:layout_width="fill_parent"
+						android:layout_weight="1" />
+				</TableRow><TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:textSize="8dip"
+						android:gravity="right|center_vertical" android:layout_width="fill_parent"
+						android:layout_weight="1" />
+				</TableRow><TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:textSize="8dip"
+						android:gravity="right|center_vertical" android:layout_width="fill_parent"
+						android:layout_weight="1" />
+				</TableRow><TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:textSize="8dip"
+						android:gravity="right|center_vertical" android:layout_width="fill_parent"
+						android:layout_weight="1" />
+				</TableRow>
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:textSize="8dip"
+						android:gravity="right|center_vertical" android:layout_width="fill_parent"
+						android:layout_weight="1" />
+				</TableRow>
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:textSize="8dip"
+						android:gravity="right|center_vertical" android:layout_width="fill_parent"
+						android:layout_weight="1" />
+				</TableRow>
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:textSize="8dip"
+						android:gravity="right|center_vertical" android:layout_width="fill_parent"
+						android:layout_weight="1" />
+				</TableRow>
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:textSize="8dip"
+						android:gravity="right|center_vertical" android:layout_width="fill_parent"
+						android:layout_weight="1" />
+				</TableRow>
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:textSize="8dip"
+						android:gravity="right|center_vertical" android:layout_width="fill_parent"
+						android:layout_weight="1" />
+				</TableRow>
+				
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:textSize="8dip"
+						android:gravity="right|center_vertical" android:layout_width="fill_parent"
+						android:layout_weight="1" />
+				</TableRow>
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:textSize="8dip"
+						android:gravity="right|center_vertical" android:layout_width="fill_parent"
+						android:layout_weight="1" />
+				</TableRow>
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:textSize="8dip"
+						android:gravity="right|center_vertical" android:layout_width="fill_parent"
+						android:layout_weight="1" />
+				</TableRow>
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:textSize="8dip"
+						android:gravity="right|center_vertical" android:layout_width="fill_parent"
+						android:layout_weight="1" />
+				</TableRow>
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:textSize="8dip"
+						android:gravity="right|center_vertical" android:layout_width="fill_parent"
+						android:layout_weight="1" />
+				</TableRow>
+			</TableLayout>
+					<HorizontalScrollView android:id="@+id/TableHorizScroll"
+				android:layout_height="fill_parent">
+			<TableLayout android:id="@+id/tableRoot"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:gravity="left" android:stretchColumns="0,1,2,3,4,5"
+				android:layout_weight="1">
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+				<TableRow android:gravity="left" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:layout_weight="1"
+					android:minHeight="15dip" android:layout_marginBottom="1dip">
+					<TextView android:layout_height="fill_parent"
+						android:text="Mon" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Tue" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Wed" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Thur" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+					<TextView android:layout_height="fill_parent"
+						android:text="Fri" android:padding="1dip" android:layout_weight="1"
+						android:textSize="8dip" android:layout_marginRight="1dip" android:gravity="center_horizontal"/>
+				</TableRow>
+				
+			</TableLayout>
+			</HorizontalScrollView>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

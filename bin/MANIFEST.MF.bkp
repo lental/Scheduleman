@@ -1,0 +1,23 @@
+Archive-Manifest-Version: 1.2
+Archive-Created-By: BlackBerry BAR Packager v1.4
+
+Package-Author: len
+Package-Author-Id: testEPWo6SP4zSS1azurMjWMxYo
+Package-Name: com.scheduleman
+Package-Id: testECxwJCfaVrLADM6AYGDaO5k
+Package-Version: 1.0.2.0
+Package-Version-Id: testEOu2t-3bcOpKQ6Qe_KTzalo
+Package-Type: application
+Package-Architecture: armle-v7
+
+Application-Name: Scheduleman
+Application-Id: testECgZR3vVatSV2cw5i9f0R64
+Application-Version: 1.0.2.0
+Application-Version-Id: testEOu2t-3bcOpKQ6Qe_KTzalo
+
+Entry-Point-Name: Scheduleman
+Entry-Point-Icon: android/res/drawable-hdpi/icon.png
+Entry-Point-Type: Qnx/Android
+Entry-Point: android://com.scheduleman?activity-name=com.scheduleman.Home
+Entry-Point-User-Actions: access_shared,play_audio,post_notification,access_internet
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout android:layout_height="wrap_content" android:id="@+id/siteInputLayout" android:layout_width="fill_parent"><EditText android:layout_height="wrap_content" android:id="@+id/HomeUrlEdit" android:hint="@string/HomeUrlEdit" android:layout_width="fill_parent" android:layout_weight="2"></EditText><Button android:layout_height="wrap_content" android:id="@+id/changeUrlButton" android:minWidth="100dip" android:text="@string/changeUrlButton" android:layout_width="wrap_content" android:layout_weight="1"></Button>
+</LinearLayout>
+
+<TextView
+    android:id="@+id/homeInfoText"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10px"
+    android:text="@string/HomeDefaultText"
+    android:textSize="12dip" />
+
+<ScrollView android:id="@+id/ScrollView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></ScrollView>
+</LinearLayout>
